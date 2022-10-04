@@ -1,36 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 .format-section .container {
-   padding: 50px;
-   margin-left: 70px;
+  padding: 50px;
+  margin-left: 70px;
 }
 .format-section .container h1 {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-    margin-left: 70px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  margin-left: 70px;
 }
 .format-section .container .tabs {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 .format-section .container .tabs .tab {
-    width: 230px;
-    margin-left: 70px;
-    margin-bottom: 20px;
+  width: 230px;
+  margin-left: 70px;
+  margin-bottom: 20px;
 }
 .format-section .container .tabs .tab p {
-    color: #1E4681;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
-
+  color: #1e4681;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
 }
 .format-section .container .tabs .tab span {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-family: "Roboto";
+}
 
+.footer {
+  background-color: black;
+  height: 390px;
+  padding: 50px;
+}
 
+.footer .container .top-footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container .synchronization {
+  width: 115px;
+  height: 68px;
+  margin-left: 121px;
+  display: inline;
+}
+.footer .container .social {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: 121px;
+  margin-top: 30px;
+  color: red;
+}
+
+.footer .container .contact {
+  margin-right: 70px;
+}
+.footer .container .contact .email {
+  margin-top: 20px;
+}
+.footer .container .contact .email img {
+  width: 27px;
+  height: 27px;
+}
+.footer .container .contact span {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+}
+
+.footer .container .by {
+  color: white;
+  margin-top: 200px;
+  margin-left: 121px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 101.38%;
 }
