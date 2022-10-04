@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.format-section .container {
+   padding: 50px;
+   margin-left: 70px;
+}
+.format-section .container h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 70px;
+}
+.format-section .container .tabs {
+    display: flex;
+    justify-content: flex-start;
+}
+.format-section .container .tabs .tab {
+    width: 230px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.format-section .container .tabs .tab p {
+    color: #1E4681;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+
+}
+.format-section .container .tabs .tab span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    font-family: 'Roboto';
+
+
+}
