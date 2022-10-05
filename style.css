@@ -164,3 +164,110 @@
   font-size: 18px;
   line-height: 101.38%;
 }
+
+.first-section .image1 {
+  width: 149px;
+  height: 73px;
+
+  margin-left: 132px;
+  margin-top: 36px;
+}
+.first-section  .paragraphs {
+  margin-top: 50px;
+  display: flex;
+}
+.first-section .image2 {
+  margin-left: 263px;
+}
+.first-section .image3 {
+  width: 274px;
+  height: 41px;
+  margin-left: 921px;
+  background: #efefef;
+}
+.first-section .dates {
+  width: 130px;
+  height: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  margin-top: 70px;
+  margin-left: -20px;
+  display: flex;
+}
+
+.first-section .date {
+  width: 30px;
+}
+
+.first-section .online-course {
+  margin-left: 151px;
+}
+.first-section .date1 {
+  margin-left: 338px;
+}
+.first-section .date2 {
+  margin-left: 500px;
+}
+.first-section h1 {
+  width: 628px;
+  height: 190px;
+  margin-left: 122px;
+
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+}
+
+.first-section p {
+  width: 414px;
+  height: 62px;
+  margin-left: 122px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.first-section .ending {
+  background-color: rgb(30, 70, 129);
+  color: white;
+  border: 10px solid rgb(30, 70, 129);
+  border-radius: 5px;
+  width: 483.63px;
+  height: 220px;
+  margin-left: 409.39px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  padding-left: auto;
+  padding-top: 20px;
+}
+.first-section .about_smth {
+  width: 430.59px;
+  height: 113px;
+  margin-left: 40px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: left;
+}
+.first-section  .by {
+  width: 280.5px;
+  height: 50px;
+  margin-left: 250px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  margin-top: 20px;
+} 
