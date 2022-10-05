@@ -1,115 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.image1 {
+  width: 149px;
+  height: 73px;
+
+  margin-left: 132px;
+  margin-top: 36px;
+}
+.paragraphs {
+  margin-top: 50px;
+  display: flex;
+}
+.image2 {
+  margin-left: 263px;
+}
+.image3 {
+  width: 274px;
+  height: 41px;
+  margin-left: 921px;
+  background: #efefef;
+}
+.dates {
+  width: 130px;
+  height: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  margin-top: 70px;
+  margin-left: -20px;
+  display: flex;
+}
+
+.date {
+  width: 30px;
+}
+
+.online-course {
+  margin-left: 151px;
+}
+.date1 {
+  margin-left: 338px;
+}
+.date2 {
+  margin-left: 500px;
+}
+h1 {
+  width: 628px;
+  height: 190px;
+  margin-left: 122px;
+
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+}
+
+p {
+  width: 414px;
+  height: 62px;
+  margin-left: 122px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.ending {
+  background-color: rgb(30, 70, 129);
+  color: white;
+  border: 10px solid rgb(30, 70, 129);
+  border-radius: 5px;
+  width: 483.63px;
+  height: 220px;
+  margin-left: 409.39px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  padding-left: auto;
+  padding-top: 20px;
+}
+.about_smth {
+  width: 430.59px;
+  height: 113px;
+  margin-left: 40px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: left;
+}
+.by {
+  width: 280.5px;
+  height: 50px;
+  margin-left: 250px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  margin-top: 20px;
+}
+/* 
 *{
+    background-color: rgb(85, 147, 147);
     margin: 0;
     padding: 0;
 }
-.image1{
-width: 149px;
-height: 73px;
-margin-left: 132px;
-
-}
-.date{
-width: 130px;
-height: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 115%;
-
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-}
-
-.online-course{
-margin-left: 151px;
-
-}
-.date1{
-margin-left: 338px;
-
-}
-.date2{
-margin-left: 500px;
-
-}
-h1{
-width: 628px;
-height: 190px;
-margin-left: 122px;
 
 
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 101.38%;
-}
-
-p{
-width: 414px;
-height: 62px;
-margin-left: 122px;
-
-
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-
-}
-.image2{
-width: 304px;
-height: 356px;
-margin-left: 891px;
-margin-right: 245px;
-
-
-}
-.ending{
-background-color: blue;
-color: white;
-border: 2px solid blue;
-border-radius: 5px;
-width: 483.63px;
-height: 200.02px;
-margin-left: 409.39px;
-
-
-
-}
-.about_smth{
-width: 430.59px;
-height: 113px;
-margin-left: 40px;
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 130%;
-
-}
-.by{
-width: 280.5px;
-height: 30px;
-margin-left: 250px;
-
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 130%;
-}
-
-/*.heading{
+.heading6{
 width: 908px;
 height: 66px;
 margin-left: 121px;
+margin-top: 179px;
 
 
 font-family: 'Roboto Slab';
@@ -119,9 +131,24 @@ font-size: 55px;
 line-height: 101.38%;
 }
 .price{
+    margin-top: 100px;
+}
+.price1{
+width: 170px;
+height: 32px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.price{
 width: 170px;
 height: 32px;
 margin-left: 121px;
+
 
 
 font-family: 'Roboto';
@@ -133,8 +160,10 @@ line-height: 101.38%;
 }
 .price2{
 width: 481px;
-height: 181px;
-margin-left: 121px;
+height: 28px;
+
+
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -142,4 +171,53 @@ font-weight: 400;
 font-size: 80px;
 line-height: 101.38%;
 }
-*/
+.bottom-paragrap-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+
+}
+.par1{
+    width: 294px;
+    height: 32px;
+    margin-left: 121px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+.par2{
+width: 294px;
+height: 70px;
+margin-left: 121px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+}
+.par3{
+width: 322px;
+height: 32px;
+margin-left: 100px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.par4{
+width: 294px;
+height: 70px;
+margin-left: 100px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+} */
