@@ -272,6 +272,10 @@
   }
   
   @media screen and (min-width: 1280px){
+    .list-section{
+        height: 800px;
+        margin-top: 150px;
+    }
     .list-section .container
     {
     position: absolute;
