@@ -1,5 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 1280px) {
+    .cards-section .container {
+        padding: 50px;
+        font-family: "Roboto";
+    }
+    .cards-section .container h1 {
+        font-weight: 700;
+        font-size: 55px;
+        margin-left: 140px;
+    }
+    .cards-section .container .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        margin-top: 10px;
+        /* justify-content: center; */
+    }
+    .cards-section .container .cards .card {
+        border-radius: 10%;
+        width: 350px;
+        padding: 9px;
+        /* margin-left: 25px; */
+        margin-top: 50px;
+        box-shadow: 1px 1px 1px 1px rgb(212, 212, 212);
+    }
+    .cards-section .container .cards .card img {
+        width: 350px;
+    }
+    .cards-section .container .cards .card .card-container {
+        /* padding: 2px 16px; */
+        transition: 0.3s;
+    }
+    .cards-section .container .cards .card .card-container h2 {
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .cards-section .container .cards .card .card-container span {
+        display: block;
+        width: 220px;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .cards-section .container h1 {
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: 70px;
+    }
+
+    .cards-section .container .cards .card {
+        border-radius: 10%;
+        width: 230px;
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    .cards-section .container .cards .card img {
+        width: 230px;
+    }
+}
+
+@media only screen and(max-width:991px) {
+
+}
 @media screen and (min-width: 1280px){
 .list-section .container
 {
