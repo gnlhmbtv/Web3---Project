@@ -89,7 +89,7 @@
     justify-content: flex-start;
   }
   .format-section .container .tabs .tab {
-    width: 230px;
+    width: 290px;
     margin-left: 70px;
     margin-bottom: 20px;
   }
@@ -99,6 +99,8 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
+    margin-top: 70px;
+    padding-bottom: 20px;
   }
   .format-section .container .tabs .tab span {
     font-weight: 400;
